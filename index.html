@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Shopping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            amarelo: '#E6c744',
+            cinza: '#c2cbda'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <header class="flex items-center justify-between pt-[35px] px-[120px]">
+        <img src="images/logo.png" alt="">
+        <nav class="flex items-center gap-[65px]">
+            <a href="">Catalogue</a>
+            <a href="">Fashion</a>
+            <a href="">Favorite</a>
+            <a href="">Lifestyle</a>
+            <a href="" class="leading-[62px] bg-black text-white px-[22px] rounded block 
+            hover:bg-amarelo hover:text-black duration-200">Sing up</a>
+        </nav>
+    </header>
+</body>
+</html>
